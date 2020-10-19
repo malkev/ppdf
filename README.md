@@ -2,7 +2,7 @@
 PDF creator from image files. 
 
 
-<h1 id="gettingStarted">Getting Started</h1>
+# Getting Started
 
 
 <h2 id="requirements">Requirements</h2>
