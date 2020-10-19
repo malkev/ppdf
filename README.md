@@ -2,8 +2,10 @@
 PDF creator from image files. 
 
 
-# Getting Started
+<h1 id="gettingStarted">Getting Started</h1>
 
+
+<div id="requirements"></div>
 
 ## Requirements
 - PHP 7.4
@@ -20,7 +22,9 @@ At the moment the only installation mode is manual, but it requires very easy st
 - Copy the <code>spf.settings.php</code> file into your php include path directory.
 
 ---
-<h2 id="directoryStructure">Directory structure</h2>
+<div id="directoryStructure"></div>
+
+## Directory structure
 ![Alt text](resources\folders.png)
 - <code>api</code>: contains base class for API implementation.
 - <code>app</code>: contains the source code of your applications. Here you can find also a sample application.
@@ -28,7 +32,7 @@ At the moment the only installation mode is manual, but it requires very easy st
 - <code>dispatcher</code>: contains the base class of the dispatcher service. [See Class Reference](@ref spf::dispatcher::_spfDispatcher).
 - <code>include</code>: contains the [autoloader](#autoloader) function. 
 - <code>model</code>: contains the base classes for interface with database. See [paragraph](#dataProvider) for details. Moreover, here is located the abstract class of MVC model class. [See Class Reference](@ref spf::model::_spfModel).
-- <code>modules</code>: contains misc [utility modules](#additionalModules). 
+- <code>modules</code>: contains misc [additional modules](#additionalModules). 
 - <code>public</code>: contains the front-end pages of application, included JavaScript, CSS and resources files. 
 - <code>session</code>: contains the base class for managing the user sessions. [See Class Reference](@ref spf::session::_spfSession).  
 - <code>settings</code>: contains a facility class for get settings from [configuration files](#configuration).  [See Class Reference](@ref spf::settings::SPF_Settings). 
@@ -63,8 +67,9 @@ Conventionally, for consistency with the style with which the framework is writt
 ---
 <h2 id="firstApplication">Building first application</h2>
 
----
-<h2 id="additionalModules">Additional Modules</h2>
+<h2 id="additionalModules">d</h2>
+
+## Additional Modules
 Each module is a self-consistent library or class which doesn't need the rest of the Framework to work.
 ### SFPDF
 ### Iterable Collection
