@@ -5,7 +5,7 @@ PDF creator from image files.
 # Getting Started
 
 
-<h2 id="requirements">Requirements</h2>
+## Requirements
 - PHP 7.4
     - <a href="https://www.php.net/manual/en/book.image.php" target="_blank">GD extension (for use of FPDF class)</a>
     - <a href="https://www.php.net/manual/en/book.mbstring.php" target="_blank">MB string extension</a>
